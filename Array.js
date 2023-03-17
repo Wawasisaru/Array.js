@@ -1,35 +1,37 @@
 // question 1
-const arr1 = [3, 7, 34, 90, 12];
-const arr2 = [true, "green", "where", 12, 56];
+const ar1 = [3,7,34,90,12];
+const ar2 = [true,"green","where",12,56];
+const lastElem1 = ar1[ar1.length -1];
+console.log(lastElem2);
 
-const lastElem1 = arr1[arr1.length - 1];
-console.log(lastElem1); // Output: 12
+const lastElem2 = ar2[ar2.length -1];
+console.log(lastElem2)
 
-const lastElem2 = arr2[arr2.length - 1];
-console.log(lastElem2); // Output: 56
+
 
 // question 2
-const myPets = ["Cow", "Python", "Snake", "Dog"];
-const myPetsString = myPets.join(", ");
-console.log(myPetsString);
+const pests = ["cow","python","snake","Dog"]
+const PetsString = Pets.join(", ");
+console.log(PetsString);
 
-// qustion 3
-var arr3 = [ -5, 9, 5, 3, 2, -3, 6, 8, 4, 1 ];
-arr3.sort(function(a, b) {
+// Write a JS script to sort the following array items
+var num = [ -5, 9, 5, 3, 2, -3, 6, 8, 4, 1 ];
+ar3.sort(function(a, b) {
   return a - b;
 });
-console.log(arr3);
+console.log(num);
 
-// 
-let arr5 = ["the", "way", "x", 4, 23];
+// If the word is present, console it else console "the search word was not found"
 
-if (arr5.includes(4)) {
+let a = ["the", "way", "x", 4, 23];
+
+if (a.includes(4)) {
   console.log(4);
 } else {
   console.log("the search word was not found");
 }
 
-// 
+// Write a JS script to sort the following string
 let word = "lufituaeb";
 let sortedWord = word.split("").sort().join("");
 console.log(sortedWord);
